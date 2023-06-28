@@ -10,7 +10,7 @@ halo2_proofs = { git = "https://github.com/privacy-scaling-explorations/halo2.gi
 bus-mapping = { git = "https://github.com/morphism-labs/zkevm-circuits.git", branch = "v0.3" }
 eth-types = { git = "https://github.com/morphism-labs/zkevm-circuits.git", branch = "v0.3" }
 zkevm-circuits = { git = "https://github.com/morphism-labs/zkevm-circuits.git", branch = "v0.3", features = ["test-circuits"] }
-tokio = { version = "1.13", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.16.1", features = ["macros", "rt-multi-thread"] }
 ethers = { version = "0.17.0", features = ["ethers-solc"] }
 log = "0.4.14"
 env_logger = "0.9"
